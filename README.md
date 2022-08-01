@@ -222,7 +222,7 @@ assert_eq!(CharacterIden::Foo.to_string(), "foo");
 
 ### Expression
 
-Use [`Expr`] to construct select, join, where and having expression in query.
+Use [`Expr`] to construct `SELECT`, `JOIN`, `WHERE` and `HAVING` expression in query.
 
 ```rust
 assert_eq!(
